@@ -1,0 +1,23 @@
+##OpenGL GLIB
+LookAt  0 0 3  0 0 0  0 1 0
+Perspective 70
+Noise3D 128
+Vertex          liyunf.vert
+Fragment        liyunf.frag
+Program         CosCos					\
+		uA <0. 0. 1.>				\
+		uB <0. 0. 10.>				\
+		uC <0. 0. 10.>				\
+                uNoiseAmp <0. 0. 10.>			\
+                uNoiseFreq <0. 0.15 2.>			\
+                uKa <0. 0.1 1.0>                        \
+                uKd <0. 0.6 1.0>                        \
+                uKs <0. 0.3 1.0>                        \
+                uShininess <1. 10. 50.>                 \
+                uLightX <-20. 5. 20.>                   \
+                uLightY <-20. 10. 20.>                  \
+                uLightZ <-20. 20. 20.>                  \
+                uColor {1. .7 0. 1.}                    \
+                uSpecularColor {1. 1. 1. 1.}
+
+QuadXY  -0.2  1.  50 50

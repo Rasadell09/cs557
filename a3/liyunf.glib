@@ -1,0 +1,17 @@
+##OpenGL GLIB
+LookAt  0 0 3  0 0 0  0 1 0
+Perspective 70
+Noise3D 128
+MessageBox This implement the Alpha extra credit
+Vertex   liyunf.vert
+Fragment liyunf.frag
+Program  OvalNoise				\
+        uAd <.01 .05 .5>		\
+        uBd <.01 .05 .5>		\
+        uNoiseAmp <0. 0. 10.>	\
+		uNoiseFreq <0. .15 2.>	\
+		uAlpha <0. 1. 1.>		\
+        uTol <0. 0. 1.>
+
+Color 1. 1. 1.
+Sphere
